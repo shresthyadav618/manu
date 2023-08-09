@@ -1,0 +1,27 @@
+.gcon{
+    padding: 80px 0px;
+    justify-content: center;
+    /* text-align: right; */
+    margin-top: 10%;
+    background-color: #1e2028;
+}
+.gcon > div{
+    max-width: 600px;
+    width: fit-content;
+    padding: 40px;
+    max-height: 400px;
+}
+.rcon{
+    row-gap: 15px;
+}
+.rcon > div{
+    font-size: 18px;
+    text-align: left;
+}
+
+@media screen and (max-width: 1000px){
+    .gcon{
+        padding: 60px 0px!important;
+        flex-direction: column;
+    }
+}

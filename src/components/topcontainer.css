@@ -1,0 +1,59 @@
+
+
+.subcontainer{
+    width: 100%;
+    max-width: 1200px;
+    
+}
+.large{
+    letter-spacing: -2px;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 1;
+}
+.company{
+    max-width: 1200px;
+    text-align: left;
+}
+@media screen and (max-width : 1200px){
+    .topimage > img{
+    width: 160px;
+    }
+    .topimage{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .company{
+        width: 90%;
+        bottom: 70px;
+    }
+    .subcontainer{
+        width: 90%;
+    }
+    .tc{
+        height: 45vh!important;
+    }
+    .large{
+        font-size: 50px;
+    }
+    
+}
+
+@media screen and (max-width : 750px){
+    .subcontainer{
+        margin-top: -100px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .topimage > img{
+        width: 120px;
+    }
+}
+@media screen and (max-width:450px){
+    .company{
+        bottom: 20px!important;
+    }
+}
