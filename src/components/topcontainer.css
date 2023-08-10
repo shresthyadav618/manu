@@ -27,7 +27,7 @@
 @media screen and (max-width: 1000px){
     .company{
         width: 90%;
-        bottom: 70px;
+        bottom: -50px!important;
     }
     .subcontainer{
         width: 90%;
@@ -55,5 +55,11 @@
 @media screen and (max-width:450px){
     .company{
         bottom: 20px!important;
+    }
+    .subcontainer{
+        margin-top: -230px!important;
+    }
+    .tc{
+        height: 55vh!important;
     }
 }
