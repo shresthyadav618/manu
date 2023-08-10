@@ -23,10 +23,10 @@ const maincontainer = () => {
     <div>
         
         <div className='main__container'>
-            <div className='products flex flex-col'><div><h1>Products</h1></div><div className='flex gap-x-4 pc'>{product__content}</div>
+            <div className='products flex flex-col'><div className='m-auto'><h1 className='mx-auto mb-12 text-4xl font-bold'>Products</h1></div><div className='flex gap-x-4 pc'>{product__content}</div>
             <div className='flex gap-x-4 psc'>{sub__product__content}</div>
              <div className='mline'></div> </div>
-            <div className='flex flex-col'><div><h1>Built for all types of projects</h1></div> <div className='flex flex-wrap gap-x-1'>{smallCard__content}</div> <div className='mline'></div> </div>
+            <div className='flex flex-col'><div className='rm m-auto'><h1 className='text-3xl font-bold mb-6'>Built for all types of projects</h1></div> <div className='flex flex-wrap gap-x-1'>{smallCard__content}</div> <div className='mline'></div> </div>
             <div className='flex flex-col'><div className='flex flex-col'><h1 className='text-2xl font-bold m-auto mb-2'>Cosmos Chains we support</h1><span className='m-auto text-lg mb-6 text-gray-400'>More Coming Soon</span></div> <img className='mt-6 ' src='https://uploads-ssl.webflow.com/646e162a57dc9c48b5ef8bd8/646e6f0c3546c2ca071022ce_support-chains.png'></img> </div> 
         </div>
 

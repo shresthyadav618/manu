@@ -203,3 +203,18 @@
     }
 }
 
+@media screen and (max-width: 465px){
+    .rm{
+        /* margin: 0px!important; */
+        text-align: left;
+    }
+    .rm > h1{
+        font-size: x-large!important;
+    }
+}
+
+@media screen and (max-width:380px){
+    .rm > h1{
+        font-size: large!important;
+    }
+}
