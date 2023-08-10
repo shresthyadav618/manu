@@ -24,7 +24,7 @@ const useHeader = () => {
             </div>
 
         </div>
-        {Toggle && <div className="header__animate show pointer-events-none">
+        {Toggle && <div className="header__animate show ">
             <div onClick={()=>{window.location.href='/'}}>Home</div>
             <div onClick={()=>{window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfRYxYUtbgLPMdEMB6_ao05S56hxUwpK6-KUS6O73lST49-Vg/viewform'}}>Contact</div>
             </div>}
